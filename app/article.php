@@ -16,4 +16,8 @@ class article extends Model
     public function user(){
     	return $this->belongsTo('App\User');
     }
+
+    public function image(){
+    	return $this->hasMany('App\image');
+    }
 }
