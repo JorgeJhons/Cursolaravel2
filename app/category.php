@@ -11,5 +11,5 @@ class category extends Model
 
    public function articles(){
    	return $this->hastMany('App\Article');
-   };
+   }
 }
