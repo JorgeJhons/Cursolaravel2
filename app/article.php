@@ -20,4 +20,8 @@ class article extends Model
     public function image(){
     	return $this->hasMany('App\image');
     }
+
+    public function tags(){
+    	return $this->belongsToMany('App\tag');
+    }
 }
