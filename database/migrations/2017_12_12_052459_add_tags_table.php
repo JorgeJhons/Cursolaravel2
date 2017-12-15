@@ -16,7 +16,6 @@ class AddTagsTable extends Migration
         Schema::create('tags', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-
             $table->timestamps();
         });
 
@@ -28,6 +27,7 @@ class AddTagsTable extends Migration
 
             $table->foreign('article_id')->references('id')->on('articles');
             $table->foreign('tag_id')->references('id')->on('tags');
+            $table->timestamps();
         });
     }
 
