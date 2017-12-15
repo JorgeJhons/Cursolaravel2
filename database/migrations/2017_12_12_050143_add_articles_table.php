@@ -16,6 +16,7 @@ class AddArticlesTable extends Migration
         Schema::create('articles', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title');
+            $table->text('content');
             $table->integer('user_id')->unsigned();
             $table->integer('category_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users')->onDelate('cascade');
