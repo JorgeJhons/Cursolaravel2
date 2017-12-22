@@ -19,8 +19,10 @@ class AddArticlesTable extends Migration
             $table->text('content');
             $table->integer('user_id')->unsigned();
             $table->integer('category_id')->unsigned();
+
             $table->foreign('user_id')->references('id')->on('users')->onDelate('cascade');
             $table->foreign('category_id')->references('id')->on('categories')->onDelate('cascade');  
+            
             $table->timestamps();
         });
     }
