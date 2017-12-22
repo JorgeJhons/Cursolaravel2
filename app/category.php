@@ -10,6 +10,6 @@ class category extends Model
    protected $filable=['name'];
 
    public function articles(){
-   	return $this->hastMany('App\Article');
-   }
+   	return $this->hastMany('App\article');
+   }   
 }
