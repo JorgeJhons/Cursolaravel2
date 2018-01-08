@@ -20,7 +20,7 @@ class AddTagsTable extends Migration
             $table->timestamps();
         });
 
-        Schema::create('article_tag',function(){
+        Schema::create('article_tag',function(Blueprint $table){
             $table->increments('id');
             $table->integer('article_id')->unsigned();
             $table->integer('tag_id')->unsigned();
