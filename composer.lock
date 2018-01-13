@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d36b08b4a51dc68ea1e5d0ede0789f5c",
+    "content-hash": "894fe409817dd4012ac8072d9b44d244",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -73,16 +73,16 @@
         },
         {
             "name": "cviebrock/eloquent-sluggable",
-            "version": "4.4.1",
+            "version": "4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cviebrock/eloquent-sluggable.git",
-                "reference": "e1911eb3299ee549343fdbfc3738a04b00c9389e"
+                "reference": "2407515c00bd4148c6ce8156f5f82e1a6349cac3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cviebrock/eloquent-sluggable/zipball/e1911eb3299ee549343fdbfc3738a04b00c9389e",
-                "reference": "e1911eb3299ee549343fdbfc3738a04b00c9389e",
+                "url": "https://api.github.com/repos/cviebrock/eloquent-sluggable/zipball/2407515c00bd4148c6ce8156f5f82e1a6349cac3",
+                "reference": "2407515c00bd4148c6ce8156f5f82e1a6349cac3",
                 "shasum": ""
             },
             "require": {
@@ -93,7 +93,6 @@
                 "php": "^7.0"
             },
             "require-dev": {
-                "codedungeon/phpunit-result-printer": "^0.4.4",
                 "mockery/mockery": "^0.9.4",
                 "orchestra/database": "~3.5.0",
                 "orchestra/testbench": "~3.5.0",
@@ -132,7 +131,7 @@
                 "slug",
                 "sluggable"
             ],
-            "time": "2018-01-04T16:57:12+00:00"
+            "time": "2017-08-31T18:16:01+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
