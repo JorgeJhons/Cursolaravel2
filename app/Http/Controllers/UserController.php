@@ -13,7 +13,8 @@ class UserController extends Controller
 
     //
     public function create(){
-    	dd('Por fin funciono.');
+    	return view('admin.users.create');
     }
 
 }
+
